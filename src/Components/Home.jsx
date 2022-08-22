@@ -13,6 +13,7 @@ import sports from "../images/SVG ICONS/icons-10.svg";
 import fashion from "../images/SVG ICONS/icons-16.svg";
 import ViewMore from "../images/SVG ICONS/viewmore.png";
 
+
 // import photo_2 from "./assets/02.jpg";
 
 import "./style.css"

@@ -2,7 +2,25 @@ import React from 'react'
 import header1 from "../../images/header-logo.svg"
 import header2 from "../../images/header-logo2.svg"
 import {Link} from "react-router-dom";
+import ListGroup from 'react-bootstrap/ListGroup';
+import afridi from "../../images/SVG ICONS/icons-03.svg"
+import { BiCategory } from "react-icons/bi";
+import { FaUserCircle } from "react-icons/fa";
+
+import { BsWallet } from "react-icons/bs";
+import { FiUsers } from "react-icons/fi";
+import { RiMessage2Line } from "react-icons/ri";
+import { GrImage } from "react-icons/gr";
+import { MdOutlineAnalytics } from "react-icons/md";
+import { FiPackage } from "react-icons/fi";
+import { RiHandCoinLine } from "react-icons/ri";
+import { FiSettings } from "react-icons/fi";
+import { FiLogOut } from "react-icons/fi";
+import { RiFeedbackLine } from "react-icons/ri";
+import { BsInfoSquare } from "react-icons/bs";
+import { BsQuestionOctagon } from "react-icons/bs";
 import "./style.css"
+
 const Header = () => {
   return (
     <>
@@ -44,6 +62,9 @@ const Header = () => {
 					</ul>
 				</div>
 		        <ul id="respMenu" class="ace-responsive-menu text-right" data-menu-style="horizontal">
+					<div>
+						
+					</div>
 		            <li>
 						
 		                <Link to="/"><span class="title" style={{fontWeight:"600"}} >Home</span> </Link>
@@ -65,39 +86,7 @@ const Header = () => {
 		            </li> */}
 		            <li>
 		                <a href="#"><span class="title" style={{fontWeight:"600"}} >Chat</span></a>
-		                {/* <ul>
-		                    <li>
-		                        <a href="#">Listing Styles</a>
-		                       
-		                        <ul>
-		                            <li><a href="page-listing-v1.html">Listing v1</a></li>
-		                            <li><a href="page-listing-v2.html">Listing v2</a></li>
-		                            <li><a href="page-listing-v3.html">Listing v3</a></li>
-		                            <li><a href="page-listing-v4.html">Listing v4</a></li>
-		                            <li><a href="page-listing-v5.html">Listing v5</a></li>
-		                        </ul>
-		                    </li>
-		                    <li>
-		                        <a href="#" >Listing Map</a>
-
-		                        <ul>
-		                            <li><a href="page-listing-v6.html">Map v1</a></li>
-		                            <li><a href="page-listing-v7.html">Map v2</a></li>
-		                            <li><a href="page-listing-v8.html">Map v3</a></li>
-		                            <li><a href="page-listing-v9.html">Map v4</a></li>
-		                        </ul>
-		                    </li>
-		                    <li>
-		                        <a href="#">Listing Single</a>
-		                      
-		                        <ul>
-		                            <li><a href="page-listing-single-v1.html">Single V1</a></li>
-		                            <li><a href="page-listing-single-v2.html">Single V2</a></li>
-		                            <li><a href="page-listing-single-v3.html">Single V3</a></li>
-		                        </ul>
-		                    </li>
-                            <li><a href="page-add-new-listing.html">New Listing</a></li>
-		                </ul> */}
+		               
 		            </li>
 		            <li>
 		                <a href="#"><span class="title" style={{fontWeight:"600"}} >My Ads</span></a>
@@ -149,8 +138,68 @@ const Header = () => {
 		                    <li><a href="page-blog-single.html">Blog Single</a></li>
 		                </ul> */}
 		            </li>
-	                <li class="list-inline-item list_s"><a href="#" class="btn flaticon-avatar" data-toggle="modal" data-target=".bd-example-modal-lg" style={{fontWeight:"600"}} > <span class="dn-1200" >Login/Sign Up</span></a></li>
-	                <li class="list-inline-item add_listing" style={{background:"red",borderRadius:"10px",    }}><a href="page-add-new-listing.html" style={{color:"white",letterSpacing:"2px",fontfamily: 'Jost,sans-serif',fontWeight:"600"}}><span class="icon">+</span><span class="dn-lg"> Buy</span></a></li>
+		            <li>
+		                <a href="#"><FaUserCircle style={{fontWeight:"600",fontSize:"25px",}}/></a>
+		                <ul>
+		                    <li><a href="page-blog-grid.html"><BiCategory style={{fontWeight:"bold",fontSize:"20px",marginRight:"4px"}}/> Categories</a></li>
+		                    <li><a href="page-blog-grid-sidebar.html"><BsWallet style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>My Balance</a></li>
+		                    <li><a href="page-blog-details.html"><RiMessage2Line style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Response</a></li>
+		                    <li><a href="page-blog-details.html"><GrImage style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Buyer</a></li>
+		                    <li><a href="page-blog-details.html"><MdOutlineAnalytics style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Seller</a></li>
+		                    <li><a href="page-blog-details.html"><FiPackage style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Packgae Option</a></li>
+		                    <li><a href="page-blog-details.html"><RiHandCoinLine style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Suggest & Earn</a></li>
+		                    <li><a href="page-blog-details.html"><FiLogOut style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Logout</a></li>
+		                    
+		                  
+		                   
+		                </ul>
+		            </li>
+		            <li>
+		                <a href="#"><FiSettings style={{fontWeight:"600",fontSize:"25px",}}/></a>
+		                <ul>
+		                    <li><a href="/walletTransactions" ><BsWallet style={{fontWeight:"bold",fontSize:"20px",marginRight:"4px"}}/> <span style={{fontSize:'15px'}}>Wallet & Transactions</span></a></li>
+		                    <li><a href="page-blog-grid-sidebar.html"><FiUsers style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/><span style={{fontSize:'15px'}}>Invite a friend</span></a></li>
+		                    <li><a href="/feedback"><RiFeedbackLine style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Feedback</a></li>
+		                    <li><a href="page-blog-details.html"><BsInfoSquare style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>About</a></li>
+		                    <li><a href="page-blog-details.html"><BsQuestionOctagon style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Help</a></li>
+		                    
+		                    
+		                  
+		                    {/* <li><a href="page-blog-single.html">Packgae Option</a></li> */}
+		                   
+		                    {/* <li><a href="page-blog-single.html">Settings</a></li> */}
+		                </ul>
+		            </li>
+		          
+		          
+	              
+				  
+				    {/* <li class="list-inline-item list_s">
+						<a href="#" class="" data-toggle="modal" data-target=".bd-example-modal-lg" style={{fontWeight:"600"}}  > 
+						<span class="dn-1200" ><img src={afridi} alt="" style={{borderRadius:"20px",background:"white",width:"12%"}}/></span>
+						</a>
+						      <ul>
+		                    <li><a href="page-blog-grid.html">Blog Grid</a></li>
+		                    <li><a href="page-blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
+		                    <li><a href="page-blog-details.html">Blog Details</a></li>
+		                    <li><a href="page-blog-list.html">Blog List</a></li>
+		                    <li><a href="page-blog-single.html">Blog Single</a></li>
+		                </ul>
+						
+						</li> */}
+				    {/* <li class="list-inline-item list_s">
+						<a href="#" class="btn flaticon-avatar" data-toggle="modal" data-target=".bd-example-modal-lg" style={{fontWeight:"600"}} > 
+						<span class="dn-1200" >Login/Sign Up</span>
+						</a></li> */}
+	                
+					 {/* <ul>
+		                    <li><a href="page-blog-grid.html">Blog Grid</a></li>
+		                    <li><a href="page-blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
+		                    <li><a href="page-blog-details.html">Blog Details</a></li>
+		                    <li><a href="page-blog-list.html">Blog List</a></li>
+		                    <li><a href="page-blog-single.html">Blog Single</a></li>
+		                </ul> */}
+					<li class="list-inline-item add_listing" style={{background:"red",borderRadius:"10px",    }}><a href="page-add-new-listing.html" style={{color:"white",letterSpacing:"2px",fontfamily: 'Jost,sans-serif',fontWeight:"600"}}><span class="icon">+</span><span class="dn-lg"> Buy</span></a></li>
 		        </ul>
 		    </nav>
 		</div>
