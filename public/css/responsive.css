@@ -1126,7 +1126,10 @@
 @media only screen and (max-width:320px){
 	.home1-advnc-search ul.apeartment_area_list li .dropdown.bootstrap-select>.dropdown-toggle{width: 290px;}
 	.feat_property .details .tc_content .prop_details li{margin-right: 20px;}
-	.list-style-type-bullet li{margin-left: 30px;}
+	.list-style-type-bullet li
+	{
+		margin-left: 30px;
+	}
 	.home3_home_content a.popup_video_btn{display: none;}
 	.mk-search-trigger.style2{right: 60px;}
 	.tes-nav .slick-list .slick-track li.slick-slide.slick-current.slick-active.slick-center{width: 65px;}

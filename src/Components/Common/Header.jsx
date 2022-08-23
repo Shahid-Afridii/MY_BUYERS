@@ -85,11 +85,11 @@ const Header = () => {
 	                	</ul>
 		            </li> */}
 		            <li>
-		                <a href="#"><span class="title" style={{fontWeight:"600"}} >Chat</span></a>
+		                <Link to="/chat"><span class="title" style={{fontWeight:"600"}} >Chat</span></Link>
 		               
 		            </li>
 		            <li>
-		                <a href="#"><span class="title" style={{fontWeight:"600"}} >My Ads</span></a>
+		                <Link to="/myADs"><span class="title" style={{fontWeight:"600"}} >My Ads</span></Link>
 		                {/* <ul>
 				            <li>
 				                <a href="#"><span class="title">Shop Pages</span></a>
@@ -129,7 +129,7 @@ const Header = () => {
 		                </ul> */}
 		            </li>
 		            <li>
-		                <a href="#"><span class="title" style={{fontWeight:"600"}}>Wishlist</span></a>
+		                <Link to="/wishlist"><span class="title" style={{fontWeight:"600"}}>Wishlist</span></Link>
 		                {/* <ul>
 		                    <li><a href="page-blog-grid.html">Blog Grid</a></li>
 		                    <li><a href="page-blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
@@ -199,7 +199,17 @@ const Header = () => {
 		                    <li><a href="page-blog-list.html">Blog List</a></li>
 		                    <li><a href="page-blog-single.html">Blog Single</a></li>
 		                </ul> */}
-					<li class="list-inline-item add_listing" style={{background:"red",borderRadius:"10px",    }}><a href="page-add-new-listing.html" style={{color:"white",letterSpacing:"2px",fontfamily: 'Jost,sans-serif',fontWeight:"600"}}><span class="icon">+</span><span class="dn-lg"> Buy</span></a></li>
+					<li class="list-inline-item add_listing" style={{background:"red",borderRadius:"8px",    }}>
+						<a href="page-add-new-listing.html" style={{color:"white",letterSpacing:"2px",fontfamily: 'Jost,sans-serif',fontWeight:"600"}}>
+							<span class="icon">+</span><span class="dn-lg"> Buy</span>
+							</a>
+							 <ul>
+		                    <li><a href="/forms"><span style={{color:'black'}}>Create Buy post using forms</span></a></li>
+		                    <li><a href="page-blog-grid-sidebar.html">Create Buy post using voice</a></li>
+		                
+		                    
+		                </ul>
+							</li>
 		        </ul>
 		    </nav>
 		</div>

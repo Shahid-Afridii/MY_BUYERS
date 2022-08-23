@@ -6,6 +6,25 @@ const WalletTransactions = () => {
    
   return (
     <>
+	<section class="inner_page_breadcrumb style2">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-6">
+              <div class="breadcrumb_content">
+                <h2 class="breadcrumb_title">Wallet & Transactions</h2>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="#">Home</a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Wallet & Transactions
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <secton class="our-dashbord dashbord bgc-f4">
         <div className="container">
         <div class="row">
