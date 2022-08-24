@@ -141,8 +141,8 @@ const Header = () => {
 		            <li>
 		                <a href="#"><FaUserCircle style={{fontWeight:"600",fontSize:"25px",}}/></a>
 		                <ul>
-		                    <li><a href="page-blog-grid.html"><BiCategory style={{fontWeight:"bold",fontSize:"20px",marginRight:"4px"}}/> Categories</a></li>
-		                    <li><a href="page-blog-grid-sidebar.html"><BsWallet style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>My Balance</a></li>
+		                    <li><Link to="/categories"><BiCategory style={{fontWeight:"bold",fontSize:"20px",marginRight:"4px"}}/> Categories</Link></li>
+		                    <li><a href="/walletTransactions"><BsWallet style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>My Balance</a></li>
 		                    <li><a href="page-blog-details.html"><RiMessage2Line style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Response</a></li>
 		                    <li><a href="page-blog-details.html"><GrImage style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Buyer</a></li>
 		                    <li><a href="page-blog-details.html"><MdOutlineAnalytics style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Seller</a></li>
@@ -161,7 +161,7 @@ const Header = () => {
 		                    <li><a href="page-blog-grid-sidebar.html"><FiUsers style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/><span style={{fontSize:'15px'}}>Invite a friend</span></a></li>
 		                    <li><a href="/feedback"><RiFeedbackLine style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Feedback</a></li>
 		                    <li><a href="page-blog-details.html"><BsInfoSquare style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>About</a></li>
-		                    <li><a href="page-blog-details.html"><BsQuestionOctagon style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Help</a></li>
+		                    <li><Link to="/help"><BsQuestionOctagon style={{fontWeight:"bold",fontSize:"20px",marginRight:"10px"}}/>Help</Link></li>
 		                    
 		                    
 		                  
@@ -205,7 +205,7 @@ const Header = () => {
 							</a>
 							 <ul>
 		                    <li><a href="/forms"><span style={{color:'black'}}>Create Buy post using forms</span></a></li>
-		                    <li><a href="page-blog-grid-sidebar.html">Create Buy post using voice</a></li>
+		                    <li><a href="page-blog-grid-sidebar.html"><span style={{color:'black'}}>Create Buy post using voice</span></a></li>
 		                
 		                    
 		                </ul>

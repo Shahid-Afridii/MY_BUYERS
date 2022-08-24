@@ -115,7 +115,7 @@ const WishList = () => {
                           </ul>
                         </div>
                         <h4>Iphone 13 pro max with 128gb</h4>
-                        <h5 style={{ fontSize: "20px" }}> ₹ 20,000 </h5>
+                        <h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
                       </div>
                     </div>
                   </div>
@@ -199,7 +199,7 @@ const WishList = () => {
                           </ul>
                         </div>
                         <h4>Iphone 13 pro max with 128gb</h4>
-                        <h5 style={{ fontSize: "20px" }}> ₹ 20,000 </h5>
+                        <h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
                       </div>
                     </div>
                   </div>
@@ -283,7 +283,7 @@ const WishList = () => {
                           </ul>
                         </div>
                         <h4>Iphone 13 pro max with 128gb</h4>
-                        <h5 style={{ fontSize: "20px" }}> ₹ 20,000 </h5>
+                        <h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
                       </div>
                     </div>
                   </div>
@@ -367,7 +367,7 @@ const WishList = () => {
                           </ul>
                         </div>
                         <h4>Iphone 13 pro max with 128gb</h4>
-                        <h5 style={{ fontSize: "20px" }}> ₹ 20,000 </h5>
+                        <h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
                       </div>
                     </div>
                   </div>
@@ -451,7 +451,7 @@ const WishList = () => {
                           </ul>
                         </div>
                         <h4>Iphone 13 pro max with 128gb</h4>
-                        <h5 style={{ fontSize: "20px" }}> ₹ 20,000 </h5>
+                        <h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
                       </div>
                     </div>
                   </div>
@@ -535,7 +535,7 @@ const WishList = () => {
                           </ul>
                         </div>
                         <h4>Iphone 13 pro max with 128gb</h4>
-                        <h5 style={{ fontSize: "20px" }}> ₹ 20,000 </h5>
+                        <h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
                       </div>
                     </div>
                   </div>

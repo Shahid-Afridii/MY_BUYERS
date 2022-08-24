@@ -4302,7 +4302,7 @@ form.listing_page_v9{
   padding-bottom: 0px !important;
 }
 .feat_property .thumb img{
-  opacity: .6;  
+  /* opacity: .6;   */
 }
 .feat_property .thumb .blog_tag{
   background-color: #2650D9;
@@ -15549,7 +15549,7 @@ canvas {
   border: 1px solid #ebebeb;
   border-radius: 8px;
   margin: 0;
-  padding: 80px 0;
+  /* padding: 80px 0; */
   position: relative;
   text-align: center;
 }
