@@ -122,10 +122,10 @@ const ProductDetails = () => {
 										    	</div>
 										    	<p class="fz14 mt10">Every single thing we tried with John was delicious! Found some awesome places we would definitely go back to on our trip. John was also super friendly and passionate about Beşiktaş and Istanbul. we had an awesome time!</p>
 										    	<div class="thumb-list mt30">
-										    		{/* <ul>
-										    			<li class="list-inline-item"><a href="#"><img src="images/blog/bsp1.jpg" alt="bsp1.jpg"/></a></li>
-										    			<li class="list-inline-item"><a href="#"><img src="images/blog/bsp2.jpg" alt="bsp2.jpg"/></a></li>
-										    		</ul> */}
+										    		<ul>
+										    			{/* <li class="list-inline-item"><a href="#"><img src="images/blog/bsp1.jpg" alt="bsp1.jpg"/></a></li>
+										    			<li class="list-inline-item"><a href="#"><img src="images/blog/bsp2.jpg" alt="bsp2.jpg"/></a></li> */}
+										    		</ul>
 										    	</div>
 											</div>
 										</div>
