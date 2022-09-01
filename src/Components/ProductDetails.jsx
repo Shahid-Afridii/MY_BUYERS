@@ -50,11 +50,11 @@ const ProductDetails = () => {
                          {/* <small><del>$959</del></small> */}
                          </div>
 						<ul class="cart_btns ui_kit_button mb30">
-							<li class="list-inline-item"><input placeholder="4" type="number"/></li>
-							<li class="list-inline-item"><span class="fa fa-check-circle text-thm2 ml10 mr5"></span> 432 in stock</li>
+							{/* <li class="list-inline-item"><input placeholder="4" type="number"/></li>
+							<li class="list-inline-item"><span class="fa fa-check-circle text-thm2 ml10 mr5"></span> 432 in stock</li> */}
 						</ul>
 						<ul class="cart_btns ui_kit_button mb30">
-							<li class="list-inline-item"><button type="button" class="btn"><span class="flaticon-shopping-bag pr5 fz20"></span> Add to Cart</button></li>
+							<li class="list-inline-item"><button type="button" class="btn"><span class="flaticon-phone pr5"></span> Click to Call</button></li>
 							<li class="list-inline-item"><div class="favorite_icon"><span class="flaticon-love fz20"></span></div></li>
 						</ul>
 						{/* <ul class="sspd_sku mb30">
@@ -122,10 +122,10 @@ const ProductDetails = () => {
 										    	</div>
 										    	<p class="fz14 mt10">Every single thing we tried with John was delicious! Found some awesome places we would definitely go back to on our trip. John was also super friendly and passionate about Beşiktaş and Istanbul. we had an awesome time!</p>
 										    	<div class="thumb-list mt30">
-										    		<ul>
+										    		{/* <ul>
 										    			<li class="list-inline-item"><a href="#"><img src="images/blog/bsp1.jpg" alt="bsp1.jpg"/></a></li>
 										    			<li class="list-inline-item"><a href="#"><img src="images/blog/bsp2.jpg" alt="bsp2.jpg"/></a></li>
-										    		</ul>
+										    		</ul> */}
 										    	</div>
 											</div>
 										</div>

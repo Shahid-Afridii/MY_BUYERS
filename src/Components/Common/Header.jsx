@@ -41,8 +41,8 @@ const Header = () => {
 		            </button>
 		        </div>
 		        <a href="index.html" class="navbar_brand float-left dn-smd">
-		            <img class="logo1 img-fluid" src={header1} alt="header-logo.svg" />
-		            <img class="logo2 img-fluid" src={header2} alt="header-logo2.svg"/>
+		            {/* <img class="logo1 img-fluid" src={header1} alt="header-logo.svg" />
+		            <img class="logo2 img-fluid" src={header2} alt="header-logo2.svg"/> */}
 		            <span >My buyers</span>
 		        </a>
 		        {/* <!-- Responsive Menu Structure-->

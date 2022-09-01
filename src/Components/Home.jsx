@@ -200,8 +200,8 @@ useEffect(() => {
 					<div class="col-sm-6 col-md-4 col-xl-2">
 
 						<div class="icon-box text-center">
-						<div class="icon"><span ><img src={ViewMore} width="50%" alt=""/></span></div>
 							<a class="content-details" href="/categories">
+						<div class="icon"><span ><img src={ViewMore} width="50%" alt=""/></span></div>
 								<div class="title">View More</div>
 							</a>
 						</div>

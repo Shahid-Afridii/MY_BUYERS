@@ -15,7 +15,7 @@ const Footer = () => {
 						<ul class="list-unstyled">
 							<li class="text-white df"><span class="flaticon-pin mr15"></span><a href="#">329 Queensberry Street, North Melbourne VIC 3051, Australia.</a></li>
 							<li class="text-white"><span class="flaticon-phone mr15"></span><a href="#">+123 456 7890</a></li>
-							<li class="text-white"><span class="flaticon-email mr15"></span><a href="#">support@skola.com</a></li>
+							<li class="text-white"><span class="flaticon-email mr15"></span><a href="#">support@mybuyers.com</a></li>
 						</ul>
 					</div>
 				</div>
@@ -73,7 +73,7 @@ const Footer = () => {
 					<div class="footer_logo_widget text-center mb15-767">
 						<div class="wrapper">
 							<div class="logo text-center">
-								<img src="images/footer-logo.svg" alt="footer-logo.svg"/>
+								{/* <img src="images/footer-logo.svg" alt="footer-logo.svg"/> */}
 					            <span class="logo_title text-white pl15">My Buyers</span>
 							</div>
 						</div>

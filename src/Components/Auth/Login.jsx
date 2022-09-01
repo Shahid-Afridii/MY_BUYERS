@@ -43,15 +43,7 @@ const Login = () => {
 										</div>
 										<button  onClick={sendOtp} class="btn btn-googl btn-block"><span style={{fontWeight: 'bold'}}>Continue</span></button>
 										<p class="text-center mb30 mt20">Don't have an account? <Link class="text-thm" to="/register">Sign up</Link></p>
-										<hr/>
-										<div class="row mt30">
-											{/* <div class="col-lg-6">
-												<button type="submit" class="btn btn-fb btn-block"><i class="fa fa-facebook float-left mt5"></i> Log In via Facebook</button>
-											</div> */}
-											<div class="col-lg-12 mt-3">
-												<button type="submit" class="btn btn-googl btn-block"><i class="fa fa-google float-left mt5"></i> <span style={{fontWeight: 'bold'}}>Login via Email</span></button>
-											</div>
-										</div>
+										
 									</form>
 								</div>
 					  		</div>
