@@ -17,7 +17,7 @@ import fashion from "../images/SVG ICONS/icons-16.svg";
 import ViewMore from "../images/SVG ICONS/viewmore.png";
 import whatsapp from "../images/icons/Whatsapp Icon green.svg";
 import { BiUserPin } from "react-icons/bi";
-
+import "./style.css"
 // import photo_2 from "./assets/02.jpg";
 
 import "./style.css"
@@ -210,28 +210,98 @@ useEffect(() => {
 				</div>
 			</div>
 		</div>
-		<div class="container pt100-767">
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<div class="main-title text-center">
+		
+
+		<div className="container" style={{maxWidth:"1410px"}}>
+		<div class="main-title text-center">
 						<h2>All Products</h2>
 						{/* <p>Discover some of the most popular listings in Toronto based on user reviews and ratings.</p> */}
 					</div>
+			<div className="row">
+				
+				<div className="col-lg-6 ">
+				<div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									<ul class="prop_details mb0">
+										<li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+							  <span style={{color:'black'}}>
+
+                             Shahid Afridi
+							  </span>
+                            </li>
+							<li class="list-inline-item">
+                              <a href="#">
+                                <MdOutlineUpdate style={{ fontSize: "25px",marginBottom: "2px"}} />{" "}
+                                24 December, 2022
+                              </a>
+                            </li>
+											
+										</ul>
+									</div>
+									<div class="fp_footer">
+										<ul class="fp_meta float-left mb0">
+											
+										<li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +91 90927  45806</a></li>
+										</ul>
+										<ul class="fp_meta float-right mb0">
+											
+										<button type="button" class="btn btn-outline-success">View No</button>
+										<button type="button" class="btn btn-outline"><img src={whatsapp}></img></button>
+										{/* <button type="button" class="btn btn-outline"><img src={whatsapp}></img></button> */}
+											
+										</ul>
+									</div>
+								</div>
+							</div>
 				</div>
-				<div class="col-lg-12">
-					<div class="popular_listing_slider1">
-						<div class="item">
-							<div class="feat_property">
+				<div className="col-lg-6 ">
+				<div class="feat_property list" style={{width:"100%"}}>
 								<div class="thumb">
-								<img class="img-whp" src={mobiles} alt="fp1.jpg" style={{height:"250px"}}/>
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
 									<div class="thmb_cntnt">
-										{/* <ul class="tag mb0">
-											<li class="list-inline-item"><a href="#">$$$$</a></li>
-											<li class="list-inline-item"><a href="#">Open</a></li>
-										</ul> */}
-										{/* <ul class="tag2 mb0">
-											<li class="list-inline-item"><a href="#">Featured</a></li>
-										</ul> */}
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
 										<ul class="listing_reviews">
 											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
 											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
@@ -241,15 +311,14 @@ useEffect(() => {
 											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
 										</ul>
 									</div>
+									
 								</div>
 								<div class="details">
 									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
 										
-										{/* <div class="badge_icon"><a href="#"><img src={whatsapp} alt="agent1.svg" style={{background:"white",width:"40px"}}/></a></div> */}
-										<h4>Iphone 13 pro max with 128gb</h4>
-										<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
-										{/* <p>But I must explain to you how all this mistaken idea...</p> */}
-										<ul class="prop_details mb0">
+									<ul class="prop_details mb0">
 										<li class="list-inline-item">
                               <a href="#" style={{ fontSize: "20px" }}>
                                 <BiUserPin
@@ -271,109 +340,35 @@ useEffect(() => {
                                 24 December, 2022
                               </a>
                             </li>
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +61-8181-123</a></li> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-pin pr5"></span>  <span>24 December 2022</span> </a></li> */}
+											
 										</ul>
 									</div>
 									<div class="fp_footer">
 										<ul class="fp_meta float-left mb0">
-											{/* <li class="list-inline-item"><a href="#"><img src="images/icons/icon3.svg" alt="icon3.svg"/></a></li> */}
+									
 											<li class="list-inline-item"><Link to="/productDetails" style={{textDecoration:"underline"}}>View Details</Link></li>
 										</ul>
 										<ul class="fp_meta float-right mb0">
 										<button type="button" class="btn btn-outline-success">₹ 100 </button>
-											{/* <button>  </button> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-zoom"></span></a></li>
-											<li class="list-inline-item"><a class="icon" href="#"><span class="flaticon-love"></span></a></li> */}
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="feat_property">
-								<div class="thumb">
-									<img class="img-whp" src={mobiles} alt="fp1.jpg" style={{height:"250px"}}/>
-									<div class="thmb_cntnt">
-										{/* <ul class="tag mb0">
-											<li class="list-inline-item"><a href="#">$$$$</a></li>
-											<li class="list-inline-item"><a href="#">Open</a></li>
-										</ul> */}
-										{/* <ul class="tag2 mb0">
-											<li class="list-inline-item"><a href="#">Featured</a></li>
-										</ul> */}
-										<ul class="listing_reviews">
-											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
-											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
-											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
-											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
-											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
-											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="details">
-									<div class="tc_content">
-										
-										<div class="badge_icon"><a href="#"><img src={whatsapp} alt="agent1.svg" style={{background:"white",width:"40px"}}/></a></div>
-										<h4>Iphone 13 pro max with 128gb</h4>
-										<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
-										{/* <p>But I must explain to you how all this mistaken idea...</p> */}
-										<ul class="prop_details mb0">
-										<li class="list-inline-item">
-                              <a href="#" style={{ fontSize: "20px" }}>
-                                <BiUserPin
-                                  style={{
-                                    fontSize: "20px",
-                                    marginBottom: "1px",
-                                    marginRight: "5px",
-                                  }}
-                                />{" "}
-                              </a>{" "}
-							  <span style={{color:'black'}}>
-
-                             Shahid Afridi
-							  </span>
-                            </li>
-							{/* <li class="list-inline-item">
-                              <a href="#">
-                                <MdOutlineUpdate style={{ fontSize: "25px",marginBottom: "2px"}} />{" "}
-                                24 December, 2022
-                              </a>
-                            </li> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +61-8181-123</a></li> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-pin pr5"></span>  <span>24 December 2022</span> </a></li> */}
-										</ul>
-									</div>
-									<div class="fp_footer">
-										<ul class="fp_meta float-left mb0">
 											
-										<li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +91 90927  45806</a></li>
-										</ul>
-										<ul class="fp_meta float-right mb0">
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +61-8181-123</a></li> */}
-										<button type="button" class="btn btn-outline-success">View No</button>
-											{/* <button>  </button> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-zoom"></span></a></li>
-											<li class="list-inline-item"><a class="icon" href="#"><span class="flaticon-love"></span></a></li> */}
 										</ul>
 									</div>
 								</div>
 							</div>
-						</div>
-					
-						<div class="item">
-							<div class="feat_property">
+				</div>
+				<div className="col-lg-6 ">
+				<div class="feat_property list products" style={{width:"100%"}}>
 								<div class="thumb">
-								<img class="img-whp" src={mobiles} alt="fp1.jpg" style={{height:"250px"}}/>
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
 									<div class="thmb_cntnt">
-										{/* <ul class="tag mb0">
-											<li class="list-inline-item"><a href="#">$$$$</a></li>
-											<li class="list-inline-item"><a href="#">Open</a></li>
-										</ul> */}
-										{/* <ul class="tag2 mb0">
-											<li class="list-inline-item"><a href="#">Featured</a></li>
-										</ul> */}
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
 										<ul class="listing_reviews">
 											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
 											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
@@ -383,15 +378,14 @@ useEffect(() => {
 											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
 										</ul>
 									</div>
+									
 								</div>
 								<div class="details">
 									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
 										
-										{/* <div class="badge_icon"><a href="#"><img src={whatsapp} alt="agent1.svg" style={{background:"white",width:"40px"}}/></a></div> */}
-										<h4>Iphone 13 pro max with 128gb</h4>
-										<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
-										{/* <p>But I must explain to you how all this mistaken idea...</p> */}
-										<ul class="prop_details mb0">
+									<ul class="prop_details mb0">
 										<li class="list-inline-item">
                               <a href="#" style={{ fontSize: "20px" }}>
                                 <BiUserPin
@@ -413,38 +407,38 @@ useEffect(() => {
                                 24 December, 2022
                               </a>
                             </li>
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +61-8181-123</a></li> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-pin pr5"></span>  <span>24 December 2022</span> </a></li> */}
+											
 										</ul>
 									</div>
 									<div class="fp_footer">
 										<ul class="fp_meta float-left mb0">
-											{/* <li class="list-inline-item"><a href="#"><img src="images/icons/icon3.svg" alt="icon3.svg"/></a></li> */}
-											<li class="list-inline-item"><Link to="/productDetails" style={{textDecoration:"underline"}}>View Details</Link></li>
+											
+										<li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +91 90927  45806</a></li>
 										</ul>
 										<ul class="fp_meta float-right mb0">
-										<button type="button" class="btn btn-outline-success">₹ 100 </button>
-											{/* <button>  </button> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-zoom"></span></a></li>
-											<li class="list-inline-item"><a class="icon" href="#"><span class="flaticon-love"></span></a></li> */}
+											
+										<button type="button" class="btn btn-outline-success">View No</button>
+										<button type="button" class="btn btn-outline"><img src={whatsapp}></img></button>
+										{/* <button type="button" class="btn btn-outline"><img src={whatsapp}></img></button> */}
+											
 										</ul>
 									</div>
 								</div>
 							</div>
-						</div>
-					
-						<div class="item">
-							<div class="feat_property">
+				</div>
+				<div className="col-lg-6 ">
+				<div class="feat_property list" style={{width:"100%"}}>
 								<div class="thumb">
-								<img class="img-whp" src={mobiles} alt="fp1.jpg" style={{height:"250px"}}/>
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
 									<div class="thmb_cntnt">
-										{/* <ul class="tag mb0">
-											<li class="list-inline-item"><a href="#">$$$$</a></li>
-											<li class="list-inline-item"><a href="#">Open</a></li>
-										</ul> */}
-										{/* <ul class="tag2 mb0">
-											<li class="list-inline-item"><a href="#">Featured</a></li>
-										</ul> */}
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
 										<ul class="listing_reviews">
 											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
 											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
@@ -454,15 +448,14 @@ useEffect(() => {
 											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
 										</ul>
 									</div>
+									
 								</div>
 								<div class="details">
 									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
 										
-										<div class="badge_icon"><a href="#"><img src={whatsapp} alt="agent1.svg" style={{background:"white",width:"40px"}}/></a></div>
-										<h4>Iphone 13 pro max with 128gb</h4>
-										<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
-										{/* <p>But I must explain to you how all this mistaken idea...</p> */}
-										<ul class="prop_details mb0">
+									<ul class="prop_details mb0">
 										<li class="list-inline-item">
                               <a href="#" style={{ fontSize: "20px" }}>
                                 <BiUserPin
@@ -478,14 +471,80 @@ useEffect(() => {
                              Shahid Afridi
 							  </span>
                             </li>
-							{/* <li class="list-inline-item">
+							<li class="list-inline-item">
                               <a href="#">
                                 <MdOutlineUpdate style={{ fontSize: "25px",marginBottom: "2px"}} />{" "}
                                 24 December, 2022
                               </a>
-                            </li> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +61-8181-123</a></li> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-pin pr5"></span>  <span>24 December 2022</span> </a></li> */}
+                            </li>
+											
+										</ul>
+									</div>
+									<div class="fp_footer">
+										<ul class="fp_meta float-left mb0">
+									
+											<li class="list-inline-item"><Link to="/productDetails" style={{textDecoration:"underline"}}>View Details</Link></li>
+										</ul>
+										<ul class="fp_meta float-right mb0">
+										<button type="button" class="btn btn-outline-success">₹ 100 </button>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+				</div>
+				<div className="col-lg-6 ">
+				<div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									<ul class="prop_details mb0">
+										<li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+							  <span style={{color:'black'}}>
+
+                             Shahid Afridi
+							  </span>
+                            </li>
+							<li class="list-inline-item">
+                              <a href="#">
+                                <MdOutlineUpdate style={{ fontSize: "25px",marginBottom: "2px"}} />{" "}
+                                24 December, 2022
+                              </a>
+                            </li>
+											
 										</ul>
 									</div>
 									<div class="fp_footer">
@@ -494,20 +553,82 @@ useEffect(() => {
 										<li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +91 90927  45806</a></li>
 										</ul>
 										<ul class="fp_meta float-right mb0">
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-phone pr5"></span> +61-8181-123</a></li> */}
+											
 										<button type="button" class="btn btn-outline-success">View No</button>
-											{/* <button>  </button> */}
-											{/* <li class="list-inline-item"><a href="#"><span class="flaticon-zoom"></span></a></li>
-											<li class="list-inline-item"><a class="icon" href="#"><span class="flaticon-love"></span></a></li> */}
+										<button type="button" class="btn btn-outline"><img src={whatsapp}></img></button>
+										{/* <button type="button" class="btn btn-outline"><img src={whatsapp}></img></button> */}
+											
 										</ul>
 									</div>
 								</div>
 							</div>
-						</div>
-					
-					
-					
-					</div>
+				</div>
+				<div className="col-lg-6 ">
+				<div class="feat_property list" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									<ul class="prop_details mb0">
+										<li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+							  <span style={{color:'black'}}>
+
+                             Shahid Afridi
+							  </span>
+                            </li>
+							<li class="list-inline-item">
+                              <a href="#">
+                                <MdOutlineUpdate style={{ fontSize: "25px",marginBottom: "2px"}} />{" "}
+                                24 December, 2022
+                              </a>
+                            </li>
+											
+										</ul>
+									</div>
+									<div class="fp_footer">
+										<ul class="fp_meta float-left mb0">
+									
+											<li class="list-inline-item"><Link to="/productDetails" style={{textDecoration:"underline"}}>View Details</Link></li>
+										</ul>
+										<ul class="fp_meta float-right mb0">
+										<button type="button" class="btn btn-outline-success">₹ 100 </button>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
 				</div>
 			</div>
 		</div>

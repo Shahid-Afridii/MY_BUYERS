@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect	} from 'react'
 import header1 from "../../images/header-logo.svg"
 import header2 from "../../images/header-logo2.svg"
 import {Link} from "react-router-dom";
@@ -22,6 +22,8 @@ import { BsQuestionOctagon } from "react-icons/bs";
 import "./style.css"
 
 const Header = () => {
+
+
   return (
     <>
       <div class="wrapper">
