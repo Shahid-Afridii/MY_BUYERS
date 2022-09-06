@@ -187,10 +187,10 @@ const Categories = () => {
 					</div>
 					<div class="col-sm-6 col-md-4 col-xl-2">
                     <a href="/CategoryDetails"> 
-						<div class="icon-box text-center">
-							<div class="icon"><span ><img src={leather} width="50%" alt=""/></span></div>
+					<div class="icon-box text-center">
+							<div class="icon"><span ><img src={photographer} width="50%" alt=""/></span></div>
 							<div class="content-details">
-								<div class="title">Leathers</div>
+								<div class="title">Photographer</div>
 							</div>
 						</div>
                     </a>

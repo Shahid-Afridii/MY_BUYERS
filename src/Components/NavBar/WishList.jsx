@@ -5,6 +5,12 @@ import { MdOutlineUpdate } from "react-icons/md";
 import { AiFillHeart } from "react-icons/ai";
 import { BiUserPin } from "react-icons/bi";
 import mobiles from "../../images/ADS/mobile-2.jpeg";
+import { SiGooglemessages } from "react-icons/si";
+
+
+import {Link} from "react-router-dom";
+import whatsapp from "../../images/icons/Whatsapp Icon green.svg";
+
 
 const WishList = () => {
   return (
@@ -31,7 +37,612 @@ const WishList = () => {
       </section>
       {/* <!-- Main Blog Post Content --> */}
       <section class="blog_post_container pb80">
-        <div class="container">
+      <div className="container" style={{maxWidth:"1410px"}}>
+      <div className="row">
+				
+				<div className="col-lg-6 ">
+      <div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+                  
+                  <div
+                        style={{
+                          borderRadius: "10px",
+                          fontSize: " 14px",
+                          right: "1px",
+                          lineHeight: "20px",
+                          padding: "3px 15px",
+                          position: "absolute",
+                          textTransform: "capitalize",
+                          marginLeft: "10px",
+                          top: "20px",
+                        }}
+                      >
+                        <a class="text-white" href="#">
+                          <AiFillHeart
+                            style={{ fontSize: "30px", color: "black" }}
+                          />
+                          
+                        </a>
+                      </div>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									
+									</div>
+									<div class="fp_footer">
+									<div class="bp_meta">
+											<ul>
+                      <li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+                              Shahid Afridi
+                            </li>
+												
+												<li class="list-inline-item"><a href="#"><MdOutlineUpdate style={{fontSize:"25px"}}/> 24 December, 2022</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+              </div>
+				<div className="col-lg-6 ">
+      <div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+                  
+                  <div
+                        style={{
+                          borderRadius: "10px",
+                          fontSize: " 14px",
+                          right: "1px",
+                          lineHeight: "20px",
+                          padding: "3px 15px",
+                          position: "absolute",
+                          textTransform: "capitalize",
+                          marginLeft: "10px",
+                          top: "20px",
+                        }}
+                      >
+                        <a class="text-white" href="#">
+                          <AiFillHeart
+                            style={{ fontSize: "30px", color: "black" }}
+                          />
+                          
+                        </a>
+                      </div>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									
+									</div>
+									<div class="fp_footer">
+									<div class="bp_meta">
+											<ul>
+                      <li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+                              Shahid Afridi
+                            </li>
+												
+												<li class="list-inline-item"><a href="#"><MdOutlineUpdate style={{fontSize:"25px"}}/> 24 December, 2022</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+              </div>
+				<div className="col-lg-6 ">
+      <div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+                  
+                  <div
+                        style={{
+                          borderRadius: "10px",
+                          fontSize: " 14px",
+                          right: "1px",
+                          lineHeight: "20px",
+                          padding: "3px 15px",
+                          position: "absolute",
+                          textTransform: "capitalize",
+                          marginLeft: "10px",
+                          top: "20px",
+                        }}
+                      >
+                        <a class="text-white" href="#">
+                          <AiFillHeart
+                            style={{ fontSize: "30px", color: "black" }}
+                          />
+                          
+                        </a>
+                      </div>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									
+									</div>
+									<div class="fp_footer">
+									<div class="bp_meta">
+											<ul>
+                      <li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+                              Shahid Afridi
+                            </li>
+												
+												<li class="list-inline-item"><a href="#"><MdOutlineUpdate style={{fontSize:"25px"}}/> 24 December, 2022</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+              </div>
+				<div className="col-lg-6 ">
+      <div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+                  
+                  <div
+                        style={{
+                          borderRadius: "10px",
+                          fontSize: " 14px",
+                          right: "1px",
+                          lineHeight: "20px",
+                          padding: "3px 15px",
+                          position: "absolute",
+                          textTransform: "capitalize",
+                          marginLeft: "10px",
+                          top: "20px",
+                        }}
+                      >
+                        <a class="text-white" href="#">
+                          <AiFillHeart
+                            style={{ fontSize: "30px", color: "black" }}
+                          />
+                          
+                        </a>
+                      </div>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									
+									</div>
+									<div class="fp_footer">
+									<div class="bp_meta">
+											<ul>
+                      <li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+                              Shahid Afridi
+                            </li>
+												
+												<li class="list-inline-item"><a href="#"><MdOutlineUpdate style={{fontSize:"25px"}}/> 24 December, 2022</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+              </div>
+				<div className="col-lg-6 ">
+      <div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+                  
+                  <div
+                        style={{
+                          borderRadius: "10px",
+                          fontSize: " 14px",
+                          right: "1px",
+                          lineHeight: "20px",
+                          padding: "3px 15px",
+                          position: "absolute",
+                          textTransform: "capitalize",
+                          marginLeft: "10px",
+                          top: "20px",
+                        }}
+                      >
+                        <a class="text-white" href="#">
+                          <AiFillHeart
+                            style={{ fontSize: "30px", color: "black" }}
+                          />
+                          
+                        </a>
+                      </div>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									
+									</div>
+									<div class="fp_footer">
+									<div class="bp_meta">
+											<ul>
+                      <li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+                              Shahid Afridi
+                            </li>
+												
+												<li class="list-inline-item"><a href="#"><MdOutlineUpdate style={{fontSize:"25px"}}/> 24 December, 2022</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+              </div>
+				<div className="col-lg-6 ">
+      <div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+                  
+                  <div
+                        style={{
+                          borderRadius: "10px",
+                          fontSize: " 14px",
+                          right: "1px",
+                          lineHeight: "20px",
+                          padding: "3px 15px",
+                          position: "absolute",
+                          textTransform: "capitalize",
+                          marginLeft: "10px",
+                          top: "20px",
+                        }}
+                      >
+                        <a class="text-white" href="#">
+                          <AiFillHeart
+                            style={{ fontSize: "30px", color: "black" }}
+                          />
+                          
+                        </a>
+                      </div>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									
+									</div>
+									<div class="fp_footer">
+									<div class="bp_meta">
+											<ul>
+                      <li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+                              Shahid Afridi
+                            </li>
+												
+												<li class="list-inline-item"><a href="#"><MdOutlineUpdate style={{fontSize:"25px"}}/> 24 December, 2022</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+              </div>
+				<div className="col-lg-6 ">
+      <div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+                  
+                  <div
+                        style={{
+                          borderRadius: "10px",
+                          fontSize: " 14px",
+                          right: "1px",
+                          lineHeight: "20px",
+                          padding: "3px 15px",
+                          position: "absolute",
+                          textTransform: "capitalize",
+                          marginLeft: "10px",
+                          top: "20px",
+                        }}
+                      >
+                        <a class="text-white" href="#">
+                          <AiFillHeart
+                            style={{ fontSize: "30px", color: "black" }}
+                          />
+                          
+                        </a>
+                      </div>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									
+									</div>
+									<div class="fp_footer">
+									<div class="bp_meta">
+											<ul>
+                      <li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+                              Shahid Afridi
+                            </li>
+												
+												<li class="list-inline-item"><a href="#"><MdOutlineUpdate style={{fontSize:"25px"}}/> 24 December, 2022</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+              </div>
+				<div className="col-lg-6 ">
+      <div class="feat_property list products" style={{width:"100%"}}>
+								<div class="thumb">
+									<img class="img-whp" src={mobiles} alt="ll1.jpg"/>
+                  
+                  <div
+                        style={{
+                          borderRadius: "10px",
+                          fontSize: " 14px",
+                          right: "1px",
+                          lineHeight: "20px",
+                          padding: "3px 15px",
+                          position: "absolute",
+                          textTransform: "capitalize",
+                          marginLeft: "10px",
+                          top: "20px",
+                        }}
+                      >
+                        <a class="text-white" href="#">
+                          <AiFillHeart
+                            style={{ fontSize: "30px", color: "black" }}
+                          />
+                          
+                        </a>
+                      </div>
+									<div class="thmb_cntnt">
+										<ul class="tag mb0">
+											
+											{/* <li class="list-inline-item"><a href="#">$$$$</a></li>
+											<li class="list-inline-item"><a href="#">Open</a></li> */}
+										</ul>
+										<ul class="tag2 mb0">
+											{/* <li class="list-inline-item"><a href="#">Featured</a></li> */}
+										</ul>
+										<ul class="listing_reviews">
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white" href="#"><span class="fa fa-star"></span></a></li>
+											<li class="list-inline-item"><a class="text-white total_review" href="#">(5 Review)</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								<div class="details">
+									<div class="tc_content">
+									<h4>Iphone 13 pro max with 128gb</h4>
+									<h5 style={{ fontSize: "20px" }}> ₹ 48,000 </h5>
+										
+									
+									</div>
+									<div class="fp_footer">
+									<div class="bp_meta">
+											<ul>
+                      <li class="list-inline-item">
+                              <a href="#" style={{ fontSize: "20px" }}>
+                                <BiUserPin
+                                  style={{
+                                    fontSize: "20px",
+                                    marginBottom: "1px",
+                                    marginRight: "5px",
+                                  }}
+                                />{" "}
+                              </a>{" "}
+                              Shahid Afridi
+                            </li>
+												
+												<li class="list-inline-item"><a href="#"><MdOutlineUpdate style={{fontSize:"25px"}}/> 24 December, 2022</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+              </div>
+              </div>
+              </div>
+        {/* <div class="container">
           <div class="row">
             <div class="col-lg-12">
               <div class="row">
@@ -80,14 +691,12 @@ const WishList = () => {
                           <AiFillHeart
                             style={{ fontSize: "30px", color: "black" }}
                           />
-                          {/* <span style={{fontWeight:"600"}}>5.0</span> */}
+                          
                         </a>
                       </div>
-                      {/* <div class="tag bgc-thm"> */}
+                    
 
-                      {/* </div> */}
-
-                      {/* <div class="tag bgc-thm"><a class="text-white" href="#"><BiUserPin style={{fontSize:"20px",marginBottom:"1px",marginRight:"5px"}}/> <span style={{fontWeight:"600"}}>Shahid Afridi</span></a></div> */}
+                    
                     </div>
                     <div class="details">
                       <div class="tc_content">
@@ -105,7 +714,7 @@ const WishList = () => {
                               </a>{" "}
                              Shahid Afridi
                             </li>
-                            {/* <li class="list-inline-item"><a href="#" style={{fontSize:"20px"}}><FiStar/> </a> 5.0 </li> */}
+                         
                             <li class="list-inline-item">
                               <a href="#">
                                 <MdOutlineUpdate style={{ fontSize: "25px" }} />{" "}
@@ -164,14 +773,10 @@ const WishList = () => {
                           <AiFillHeart
                             style={{ fontSize: "30px", color: "black" }}
                           />
-                          {/* <span style={{fontWeight:"600"}}>5.0</span> */}
+                     
                         </a>
                       </div>
-                      {/* <div class="tag bgc-thm"> */}
-
-                      {/* </div> */}
-
-                      {/* <div class="tag bgc-thm"><a class="text-white" href="#"><BiUserPin style={{fontSize:"20px",marginBottom:"1px",marginRight:"5px"}}/> <span style={{fontWeight:"600"}}>Shahid Afridi</span></a></div> */}
+                    
                     </div>
                     <div class="details">
                       <div class="tc_content">
@@ -189,7 +794,7 @@ const WishList = () => {
                               </a>{" "}
                               Shahid Afridi
                             </li>
-                            {/* <li class="list-inline-item"><a href="#" style={{fontSize:"20px"}}><FiStar/> </a> 5.0 </li> */}
+                           
                             <li class="list-inline-item">
                               <a href="#">
                                 <MdOutlineUpdate style={{ fontSize: "25px" }} />{" "}
@@ -248,14 +853,10 @@ const WishList = () => {
                           <AiFillHeart
                             style={{ fontSize: "30px", color: "black" }}
                           />
-                          {/* <span style={{fontWeight:"600"}}>5.0</span> */}
+                        
                         </a>
                       </div>
-                      {/* <div class="tag bgc-thm"> */}
-
-                      {/* </div> */}
-
-                      {/* <div class="tag bgc-thm"><a class="text-white" href="#"><BiUserPin style={{fontSize:"20px",marginBottom:"1px",marginRight:"5px"}}/> <span style={{fontWeight:"600"}}>Shahid Afridi</span></a></div> */}
+                     
                     </div>
                     <div class="details">
                       <div class="tc_content">
@@ -273,7 +874,7 @@ const WishList = () => {
                               </a>{" "}
                               Shahid Afridi
                             </li>
-                            {/* <li class="list-inline-item"><a href="#" style={{fontSize:"20px"}}><FiStar/> </a> 5.0 </li> */}
+                         
                             <li class="list-inline-item">
                               <a href="#">
                                 <MdOutlineUpdate style={{ fontSize: "25px" }} />{" "}
@@ -332,14 +933,10 @@ const WishList = () => {
                           <AiFillHeart
                             style={{ fontSize: "30px", color: "black" }}
                           />
-                          {/* <span style={{fontWeight:"600"}}>5.0</span> */}
+                         
                         </a>
                       </div>
-                      {/* <div class="tag bgc-thm"> */}
-
-                      {/* </div> */}
-
-                      {/* <div class="tag bgc-thm"><a class="text-white" href="#"><BiUserPin style={{fontSize:"20px",marginBottom:"1px",marginRight:"5px"}}/> <span style={{fontWeight:"600"}}>Shahid Afridi</span></a></div> */}
+                      
                     </div>
                     <div class="details">
                       <div class="tc_content">
@@ -357,7 +954,7 @@ const WishList = () => {
                               </a>{" "}
                               Shahid Afridi
                             </li>
-                            {/* <li class="list-inline-item"><a href="#" style={{fontSize:"20px"}}><FiStar/> </a> 5.0 </li> */}
+                           
                             <li class="list-inline-item">
                               <a href="#">
                                 <MdOutlineUpdate style={{ fontSize: "25px" }} />{" "}
@@ -416,14 +1013,10 @@ const WishList = () => {
                           <AiFillHeart
                             style={{ fontSize: "30px", color: "black" }}
                           />
-                          {/* <span style={{fontWeight:"600"}}>5.0</span> */}
+                         
                         </a>
                       </div>
-                      {/* <div class="tag bgc-thm"> */}
-
-                      {/* </div> */}
-
-                      {/* <div class="tag bgc-thm"><a class="text-white" href="#"><BiUserPin style={{fontSize:"20px",marginBottom:"1px",marginRight:"5px"}}/> <span style={{fontWeight:"600"}}>Shahid Afridi</span></a></div> */}
+                     
                     </div>
                     <div class="details">
                       <div class="tc_content">
@@ -441,7 +1034,7 @@ const WishList = () => {
                               </a>{" "}
                               Shahid Afridi
                             </li>
-                            {/* <li class="list-inline-item"><a href="#" style={{fontSize:"20px"}}><FiStar/> </a> 5.0 </li> */}
+                            
                             <li class="list-inline-item">
                               <a href="#">
                                 <MdOutlineUpdate style={{ fontSize: "25px" }} />{" "}
@@ -500,14 +1093,10 @@ const WishList = () => {
                           <AiFillHeart
                             style={{ fontSize: "30px", color: "black" }}
                           />
-                          {/* <span style={{fontWeight:"600"}}>5.0</span> */}
+                         
                         </a>
                       </div>
-                      {/* <div class="tag bgc-thm"> */}
-
-                      {/* </div> */}
-
-                      {/* <div class="tag bgc-thm"><a class="text-white" href="#"><BiUserPin style={{fontSize:"20px",marginBottom:"1px",marginRight:"5px"}}/> <span style={{fontWeight:"600"}}>Shahid Afridi</span></a></div> */}
+                     
                     </div>
                     <div class="details">
                       <div class="tc_content">
@@ -525,7 +1114,7 @@ const WishList = () => {
                               </a>{" "}
                               Shahid Afridi
                             </li>
-                            {/* <li class="list-inline-item"><a href="#" style={{fontSize:"20px"}}><FiStar/> </a> 5.0 </li> */}
+                           
                             <li class="list-inline-item">
                               <a href="#">
                                 <MdOutlineUpdate style={{ fontSize: "25px" }} />{" "}
@@ -546,68 +1135,10 @@ const WishList = () => {
   
             
               </div>
-              {/* <div class="row">
-                <div class="col-lg-12">
-                  <div class="mbp_pagination mt10">
-                    <ul class="page_navigation">
-                      <li class="page-item">
-                        <a
-                          class="page-link"
-                          href="#"
-                          tabindex="-1"
-                          aria-disabled="true"
-                        >
-                          {" "}
-                          <span class="fa fa-angle-left"></span>
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          1
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          2
-                        </a>
-                      </li>
-                      <li class="page-item active" aria-current="page">
-                        <a class="page-link" href="#">
-                          3 <span class="sr-only">(current)</span>
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          4
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          5
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          ...
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          15
-                        </a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">
-                          <span class="fa fa-angle-right"></span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div> */}
+             
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );
